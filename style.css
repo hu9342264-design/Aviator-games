@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: radial-gradient(circle, #0b1220, #000);
+  color: white;
+  text-align: center;
+}
+
+.top {
+  padding: 10px;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  background: transparent;
+}
+
+.panel {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(20,20,30,0.9);
+  padding: 15px;
+  border-radius: 15px;
+  width: 260px;
+}
+
+#multiplier {
+  font-size: 40px;
+  color: #22c55e;
+}
+
+button {
+  margin: 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
